@@ -27,6 +27,11 @@ def test_floating_mean1():
 
 # FIXME Put Median tests here
 
+def test_median():
+    obs = median([1,2,3])
+    exp = 2	
+    assert_equal(obs, exp)
+
 # FIXME Put Mode tests here
 
 def test_std1():
